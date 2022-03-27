@@ -1,10 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mes notes GIT</title>
+<title>Mes notes GITHUB</title>
 </head>
 
 <body>
+git  bash ligne de commande
+permet de gerer tous nos versionnig
+repository tous les projets que nous avons sauvegarde
+
+commande git bash
+
+Versionnez son travail (titre)
+
+
+Bloc Nviguez dans gitbash
+
+pwd  savoir dans quel dossier je suis
+
+
+mkdir "dossier"  créer un dossier
+
+touch creer un fichier
+
+ls liste le  dossier courant
+
+ls-la liste le dossier plus precisement
+
+cd "dossier" aller dans dossier
+
+cd .. Remonter d'un dossier
+
+bloc Initialisation ou configuration de git pour le travail en equipe et savoir qui commit
+git config --global user.name "Mon nom"
+git config --global user.email Mon email
+git config --global --list Affiche nom et mail
+
+Autres commandes
+git status  état du fichier pour voir sil y a des commits a faire des commits deja fait
+git diff affiche les commits avant commit
+
+Bloc Versinner notre travail en local
+
+1. il faut initialiser un depot
+git init   initialise le dépot(se mettre sur le bon dossier), mieux a faire dpuis github.com (.git creer permet de sauvegarder tout ce quon sauvegarde)
+git add. ajoute toutes les modifications (le . signifie tout)
+git commit -m "messagecommit" cree un nouveau commit git add pousse les fichiers en zone index ou zone dattente mais pas encore sauvegarder, git commit lessauvegarde reellement dans un nouveau commit
+
+
+Bloc gerer les commit
+git log liste des commits
+
+git log -n2 afficheles 2 derniers commits
+
+git show sha-1 voir commit specifique (cliquer mollete de souris puis coller)
+
+git checkout sha-1 remettre la version du sha-1
+
+git checkout master remettre version la plus recente
+
+
+
+Bloc versionner sur un depot distant (mettre en ligne le travail en local sur le serveur distant)
+git clone lien-github récupérer projet depuis depot distant
+git push -u origin master pousse les modifications vers serveur
+
+
+commit son projet sur github
+git add.
+git commit -m "message"
+git push -u origin main
+
 
 </body>
 
